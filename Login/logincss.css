@@ -1,0 +1,124 @@
+body {
+  background-image: url("blueimg.jpg");
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.main {
+  background-color: #FFFFFF;
+  width: 300px;
+  height: 500px;
+  margin: 3.5em auto;
+  border-radius: 1.2em;
+  box-shadow: 0px 11px 35px 2px rgba(51, 11, 11, 0.349);
+}
+
+.sign {
+  padding-top: 50px;
+  color: #1c0c24a2;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.un {
+width: 85%;
+color: rgba(0, 0, 0, 0.568);
+font-weight: 100;
+font-size: 20px;
+letter-spacing: 1px;
+background-color: rgba(153, 141, 141, 0.205);
+padding: 10px 10px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+/* border: 2px solid rgba(0, 0, 0, 0); */
+margin-left: 23px;
+margin-bottom: 27px;
+text-align: left;
+font-family: 'Arial', sans-serif;
+}
+
+form.form1 {
+  padding-top: 30px;
+}
+.textarea {
+  border: none;
+  background-color: rgba(153, 141, 141, 0.048);
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  }
+.pass {
+  width: 85%;
+  color: rgba(0, 0, 0, 0.568);
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background: rgba(153, 141, 141, 0.205);
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0);
+  margin-left: 23px;
+  margin-bottom: 9px;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.un:focus, .pass:focus {
+  border: 2px solid rgba(0, 0, 0, 0.18) !important;
+  
+}
+
+.submit {
+cursor: pointer;
+  border-radius: 5em;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to right, #eeaa5ccc, #df2730c2);
+  border: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-family: 'Arial', sans-serif;
+  margin-left: 6%;
+  font-size: 20px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.remember{
+  padding-bottom: 25px;
+  font-size: 18px;
+  padding-left: 15px;
+  color: rgba(92, 79, 79, 0.719);
+}
+.forgot {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #9e92a0d5;
+  padding-top: 3px;
+  font-size: 14px;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #948b96e7;
+  text-decoration: none
+}
+.not-a-member{
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #948b96;
+  padding-top: 55px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  font-size: 14px;
+}
+
+@media (max-width: 400px) {
+.main {
+      border-radius: 0px;
+}
+}
